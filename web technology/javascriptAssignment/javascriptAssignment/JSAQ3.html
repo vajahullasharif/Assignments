@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+
+<!--3 quastion-->
+<body>
+    enter first number: <input id="first" type="text" size="20" /><br /><br />
+    enter second number: <input id="secound" type="text" size="20" /><br /><br /> 
+    <button onclick="check()">check</button> <div id="result"></div>
+    <script type="text/javascript">
+ function check() {
+var one = parseInt(document.getElementById("first").value);
+var two = parseInt(document.getElementById("secound").value);
+if ((one > 50 && one < 99) && (two > 50 && two < 99)) {
+     document.getElementById('result').innerHTML = true;
+ }
+  else {
+       document.getElementById('result').innerHTML = false;
+     }
+ }
+    </script>
+</body>
+</html>
