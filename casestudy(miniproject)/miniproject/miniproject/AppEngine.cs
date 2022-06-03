@@ -22,7 +22,7 @@ namespace miniproject
         }
         public void introduce(Course course)
         {
-            Console.WriteLine(course.Id + " " + course.Name + " " + course.duration + " " + course.fees);
+            Console.WriteLine(course.Id + " " + course.Name + " " + course.duration + " " +"days,"+ " " + course.fees);
         }
 
         //public void register(Student student)
@@ -262,7 +262,7 @@ namespace miniproject
                 dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    Console.WriteLine("Course Id : " + dr[0] + " Course Name : " + dr[1] + " Course Duration : " + dr[2] + " Course Fees : " + dr[3]);
+                    Console.WriteLine("Course Id : " + dr[0] + " Course Name : " + dr[1] + " Course Duration : " + dr[2] +" "+"days," + " Course Fees : " + dr[3]);
                 }
             }
             catch (SqlException ex)

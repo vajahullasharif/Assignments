@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace miniproject
+namespace miniprojects
 {
     public class Enroll
     {
