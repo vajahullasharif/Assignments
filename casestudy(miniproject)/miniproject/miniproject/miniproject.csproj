@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F06A2E5A-9714-48B0-BD29-40EDEB3AE40B}</ProjectGuid>
+    <ProjectGuid>{F7F17DFB-48AF-4D4F-94C3-678599D0407D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>javascriptAssignment</RootNamespace>
-    <AssemblyName>javascriptAssignment</AssemblyName>
+    <RootNamespace>miniproject</RootNamespace>
+    <AssemblyName>miniproject</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="AppEngine.cs" />
+    <Compile Include="App.cs" />
+    <Compile Include="Enroll.cs" />
+    <Compile Include="info.cs" />
+    <Compile Include="interfaceuseraction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="userInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="JSAQ1.html" />
-    <Content Include="JSAQ2.html" />
-    <Content Include="JSAQ3.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
