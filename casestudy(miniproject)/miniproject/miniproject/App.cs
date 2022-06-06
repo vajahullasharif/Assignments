@@ -53,7 +53,7 @@ namespace miniproject
 
         public void Scenerio2()
         {
-            Student[] students = new Student[2];
+            Student[] students = new Student[3];
             students[0] = new Student(1001, "sharuk", "10/01/1998");
             students[1] = new Student(1002, "khan", "12/05/1999");
             students[2] = new Student(1003, "salman", "12/12/1990");
@@ -85,9 +85,9 @@ namespace miniproject
         static void Main(string[] args)
         {
             App app = new App();
-            //app.Scenerio1();
-            //app.Scenerio2();
-            //app.Scenerio3();
+            app.Scenerio1();
+            app.Scenerio2();
+            app.Scenerio3();
 
             /* Student student1 = new Student(1, "vajahulla", "19/10/1998");
              Student student2 = new Student(2, "sharif", "21/05/1999");
